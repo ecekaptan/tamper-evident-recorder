@@ -151,7 +151,7 @@ Ollama's OpenAI-compatible endpoint, chat spans from the official
 `opentelemetry-instrumentation-openai-v2`, tool spans from the agent loop, and simulated
 tools (no real money or email moves). One invoice (`inv_103.txt`) carries a hidden
 prompt injection asking the agent to pay "Offshore Holdings Ltd" 9,800 USD.
-
+The keys in runs/*/ are throwaway keys generated for this experiment and are committed so the validation can be re-run.
 ```bash
 ollama pull qwen2.5:7b                      # any tool-capable model
 python -m agent.real_agent --model qwen2.5:7b --tasks 15 --out runs/qwen7b
