@@ -1,0 +1,10 @@
+attack,label,actor,trials,plain,hash,signed,witnessed
+edit_field,Edit a field,operator,50,0,50,50,50
+edit_and_resign_one,Edit and re-sign one record,operator,50,0,50,50,50
+delete_middle,Delete a middle record,operator,50,0,50,50,50
+reorder,Swap two adjacent records,operator,50,0,50,50,50
+insert_signed,Insert a signed fake record,operator,50,0,50,50,50
+append_outsider,Append a fake record (no operator key),outsider,50,0,0,50,50
+truncate_tail,Truncate the tail,operator,50,0,0,0,50
+full_rewrite,Rewrite and re-sign the whole chain,operator,50,0,0,0,49
+write_time_lie,Log a false event at write time,operator,50,0,0,0,0

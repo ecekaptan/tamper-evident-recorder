@@ -1,0 +1,64 @@
+{
+  "checkpoint_every": 25,
+  "seeds": 5,
+  "records": 1050,
+  "payments": 129,
+  "witness_receipts": {
+    "periodic": 40,
+    "periodic_plus_risk": 160
+  },
+  "detected": {
+    "periodic": {
+      "0": {
+        "detected": 9,
+        "trials": 129
+      },
+      "1": {
+        "detected": 15,
+        "trials": 129
+      },
+      "2": {
+        "detected": 21,
+        "trials": 127
+      },
+      "5": {
+        "detected": 33,
+        "trials": 125
+      },
+      "10": {
+        "detected": 53,
+        "trials": 123
+      },
+      "20": {
+        "detected": 96,
+        "trials": 113
+      }
+    },
+    "periodic_plus_risk": {
+      "0": {
+        "detected": 129,
+        "trials": 129
+      },
+      "1": {
+        "detected": 129,
+        "trials": 129
+      },
+      "2": {
+        "detected": 127,
+        "trials": 127
+      },
+      "5": {
+        "detected": 125,
+        "trials": 125
+      },
+      "10": {
+        "detected": 123,
+        "trials": 123
+      },
+      "20": {
+        "detected": 113,
+        "trials": 113
+      }
+    }
+  }
+}

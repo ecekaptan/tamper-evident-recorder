@@ -1,0 +1,62 @@
+[
+  {
+    "config": "plain",
+    "us_per_span_median": 29.875441428571104,
+    "us_per_span_p10": 29.643439999983368,
+    "us_per_span_p90": 33.71412809523614,
+    "log_bytes_per_record": 509.2604761904762,
+    "total_bytes_per_record": 509.2604761904762,
+    "spans_per_run": 2100,
+    "repeats": 15,
+    "added_us_vs_plain": 0.0,
+    "storage_ratio_vs_plain": 1.0
+  },
+  {
+    "config": "hash",
+    "us_per_span_median": 64.70358999998942,
+    "us_per_span_p10": 63.79047857143134,
+    "us_per_span_p90": 66.19096380951478,
+    "log_bytes_per_record": 786.7319047619047,
+    "total_bytes_per_record": 786.7319047619047,
+    "spans_per_run": 2100,
+    "repeats": 15,
+    "added_us_vs_plain": 34.82814857141831,
+    "storage_ratio_vs_plain": 1.5448516850297396
+  },
+  {
+    "config": "signed",
+    "us_per_span_median": 94.83326761905379,
+    "us_per_span_p10": 93.75192142856902,
+    "us_per_span_p90": 110.65784238096079,
+    "log_bytes_per_record": 925.7319047619047,
+    "total_bytes_per_record": 925.7319047619047,
+    "spans_per_run": 2100,
+    "repeats": 15,
+    "added_us_vs_plain": 64.95782619048268,
+    "storage_ratio_vs_plain": 1.8177964873434587
+  },
+  {
+    "config": "committed",
+    "us_per_span_median": 104.84091285713065,
+    "us_per_span_p10": 103.54853428569163,
+    "us_per_span_p90": 107.64732666668156,
+    "log_bytes_per_record": 958.0738095238095,
+    "total_bytes_per_record": 1229.11,
+    "spans_per_run": 2100,
+    "repeats": 15,
+    "added_us_vs_plain": 74.96547142855954,
+    "storage_ratio_vs_plain": 2.4135193235382397
+  },
+  {
+    "config": "witnessed",
+    "us_per_span_median": 110.98464333334353,
+    "us_per_span_p10": 108.60652333332968,
+    "us_per_span_p90": 117.6480309523716,
+    "log_bytes_per_record": 958.0738095238095,
+    "total_bytes_per_record": 1248.2490476190476,
+    "spans_per_run": 2100,
+    "repeats": 15,
+    "added_us_vs_plain": 81.10920190477242,
+    "storage_ratio_vs_plain": 2.451101363601936
+  }
+]

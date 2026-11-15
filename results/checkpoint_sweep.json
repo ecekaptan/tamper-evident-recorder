@@ -1,0 +1,50 @@
+[
+  {
+    "checkpoint_every": 1,
+    "witness_receipts": 210,
+    "worst_case_unprotected_records": 0,
+    "unprotected_tail_records": 0,
+    "truncate_tail_detected": 1.0,
+    "full_rewrite_detected": 1.0
+  },
+  {
+    "checkpoint_every": 5,
+    "witness_receipts": 42,
+    "worst_case_unprotected_records": 4,
+    "unprotected_tail_records": 0,
+    "truncate_tail_detected": 1.0,
+    "full_rewrite_detected": 1.0
+  },
+  {
+    "checkpoint_every": 10,
+    "witness_receipts": 21,
+    "worst_case_unprotected_records": 9,
+    "unprotected_tail_records": 0,
+    "truncate_tail_detected": 1.0,
+    "full_rewrite_detected": 1.0
+  },
+  {
+    "checkpoint_every": 25,
+    "witness_receipts": 8,
+    "worst_case_unprotected_records": 24,
+    "unprotected_tail_records": 10,
+    "truncate_tail_detected": 0.91,
+    "full_rewrite_detected": 0.98
+  },
+  {
+    "checkpoint_every": 50,
+    "witness_receipts": 4,
+    "worst_case_unprotected_records": 49,
+    "unprotected_tail_records": 10,
+    "truncate_tail_detected": 0.91,
+    "full_rewrite_detected": 0.98
+  },
+  {
+    "checkpoint_every": 100,
+    "witness_receipts": 2,
+    "worst_case_unprotected_records": 99,
+    "unprotected_tail_records": 10,
+    "truncate_tail_detected": 0.91,
+    "full_rewrite_detected": 0.98
+  }
+]
